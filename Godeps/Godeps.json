@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/kube-state-metrics",
+	"ImportPath": "github.com/saucelabs/kube-state-metrics",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v74",
 	"Deps": [

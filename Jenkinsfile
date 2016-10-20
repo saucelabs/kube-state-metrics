@@ -14,6 +14,7 @@ node('swarm') {
   def branch = sh(script: 'git rev-parse --abbrev-ref HEAD', returnStdout: true).trim()
 
   sh """#!/bin/bash -e
+    env
     echo "docker -> ${docker}"
     echo "sha -> ${sha}"
     echo "branch -> ${branch}"
